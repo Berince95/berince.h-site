@@ -1,0 +1,164 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Corps du site === */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  width: 100%;
+}
+
+/* === En-tête === */
+header {
+  background-color: #1b3d1b; /* Vert plus sombre */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  gap: 20px;
+}
+
+header .header-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* === Navigation === */
+nav {
+  background-color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1b3d1b; /* Utilisation du vert plus foncé ici aussi */
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #ff9900;
+}
+
+/* === Contenu Principal === */
+main {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 1000px;
+  border-radius: 8px;
+  margin: 0;
+  width: 100%;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #1b3d1b; /* Utilisation du vert plus foncé ici aussi */
+  margin-bottom: 15px;
+  text-align: center;
+  border-bottom: 2px solid #1b3d1b;
+  padding-bottom: 10px;
+}
+
+section {
+  display: none;
+}
+
+section.active {
+  display: block;
+}
+
+section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: disc inside;
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* === Bouton CV === */
+.cv-button {
+  display: inline-block;
+  background-color: #1b3d1b; /* Vert plus foncé */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.cv-button:hover {
+  background-color: #ff9900;
+  color: #1b3d1b;
+}
+
+/* === Footer === */
+footer {
+  background-color: #1b3d1b; /* Vert plus foncé */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #ff9900;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
